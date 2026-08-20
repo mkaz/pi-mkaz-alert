@@ -1,0 +1,29 @@
+{
+  "name": "pi-mkaz-alert",
+  "version": "1.0.0",
+  "description": "Play a sound when Pi finishes an agent run",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "notification",
+    "sound"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./pi-mkaz-alert.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "files": [
+    "pi-mkaz-alert.ts",
+    "pi-mkaz-alert-success.wav",
+    "pi-mkaz-alert-error.wav",
+    "pi-mkaz-alert-abort.wav",
+    "README.md"
+  ]
+}

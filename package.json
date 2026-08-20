@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Play a sound when Pi finishes an agent run",
   "type": "module",
+  "author": "mkaz",
+  "license": "MIT",
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -10,7 +12,6 @@
     "notification",
     "sound"
   ],
-  "license": "MIT",
   "pi": {
     "extensions": [
       "./pi-mkaz-alert.ts"
